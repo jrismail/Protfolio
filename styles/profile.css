@@ -1,3 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
 *{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
     background-color: #13072E;
 }
+
+/*-------------- header---------------*/
+.header{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.titel-img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-titel{
+    color: white;
+    font-family: Inter;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+.header-titel{
+    display: flex;
+    gap: 20px;
+    text-align: left;
+}
+
+nav{
+    display: flex;
+    margin: 20px 100px 0px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav >ul{
+    display: flex;
+    text-align: center;
+    margin-top: 18px;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    transition: all ease-in .5s;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.btn-primary{
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 10px 30px;
+    outline: none;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+.btn-primary:hover{
+    border: 2px solid black;
+    transform: translateY(4px);
+}
+
+.banner{
+    width:  82%;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: linear-gradient(135deg, rgba(19, 7, 46) 20%, rgba(63, 33, 130) 100%);
+    border-radius: 16px;
+    padding: 50px;
+    box-shadow: 5px 2px 20px white;
+    
+}
+.banner-titel{
+    color: white;
+    text-align: left;
+    margin-top: 100px;
+    
+}
+
+.banner-titel h2 {
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 700;
+
+    
+}
+
+.banner-titel p{
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-right: 70px;
+}
+
+.banner-titel button{
+    margin-top: 20px;
+}
+
+.banner-img img{
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: 5px 2px 30px white;
+}
+
+.banner-img {
+    padding: 20px;
+    border: 20px solid rgba(19, 7, 46);
+    border-radius: 50%;
+}
+
+/*----------------main------------*/
+
+/*----work section----*/
+
+.work{
+    width: 82%;
+    margin-top: 20px;
+    display: flex;
+    padding: 50px;
+    margin-left: 50px;
+    justify-content: space-between;
+    
+}
+
+.work-titel{
+    color: white;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.work-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.work-img-r1{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+}
+.work-img-r1 img{
+    width: 60%;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    margin-right: 10px;
+    transition: all ease .5s;
+    outline: none;
+    cursor: pointer;
+}
+
+.work-img-r2{
+    display: flex;
+    width: 100%;
+
+}
+.work-img-r2 img{
+    width: 60%;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    margin-right: 10px;
+    outline: none;
+    transition: all ease .5s;
+    cursor: pointer;
+}
+
+.work-img-r1 img:hover, .work-img-r2 img:hover{
+    border: 2px solid black;
+    transform: translateY(4px);
+    box-shadow: 5px 3px 20px white;
+}
+
+.work-text{
+    color: white;
+    flex-direction: column;
+    margin-left: 80px;
+    padding: 10px;
+    
+}
+
+.work-text h1{
+    font-family: Merriweather;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: left;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+.work-text p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    justify-content: left;
+    margin-left: 30px;
+}
+
+/*------comment------*/
+.comment-titel{
+    color: white;
+    font-family: Inter;
+    font-size: 48px;
+    margin-top: 120px;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.comment-container{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    margin: 70px;
+}
+
+.comment{
+    width: 40%;
+    height: 300px;
+    padding: 60px; 
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: all ease .5s;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, rgba(19, 7, 46) 20%, rgba(63, 33, 130) 100%);
+}
+
+.comment:hover{
+    border: 2px solid white;
+    box-shadow: 8px 2px 30px white;
+    transform: translateY(4px);
+}
+
+.comment h4{
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: left;
+}
+
+.comment p{
+    color: whitesmoke;
+    font-family: Merriweather;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: left;
+    line-height: 25px;
+
+}
+
+.commenter{
+    display: flex;
+    margin-top: 40px;
+}
+
+.commenter img{
+    border-radius: 100%;
+    width: 20%;
+}
+
+.comment-name{
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.comment-name h5{
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.comment-name h6{
+    color: #B3AAFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
