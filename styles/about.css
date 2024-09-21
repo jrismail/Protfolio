@@ -1,0 +1,89 @@
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input[type="text"] {
+    padding: 0.5rem;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+.search-form button {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: aqua;
+    color: black;
+    border: 2px solid  transparent;
+    box-shadow: 0px 2px 10px white;
+    transform: translateX(4px);
+}
+
+.about{
+    width:  82%;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: linear-gradient(135deg, rgba(19, 7, 46) 20%, rgba(63, 33, 130) 100%);
+    border-radius: 16px;
+    padding: 50px;
+    box-shadow: 5px 2px 20px white;
+}
+
+.about-me{
+    text-align: left;
+    padding: 70px;
+
+}
+.about-me h1{
+    color: #fff;
+    font-family: Inter;
+    font-size: 48px;
+}
+
+.about-me p{
+    color: #efeeff;
+    margin-top: 30px;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 500;
+    text-spacing-trim: 4px;
+}
+
+.about-me span{
+    color: #fff;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.about-me button{
+    margin-top: 30px;
+    font-family: Inter;
+    font-weight: 700;
+
+}
+
+.about-imge{
+    text-align: center;
+
+}
+
+.about-imge img{
+    width: 360px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 20px white;
+}
