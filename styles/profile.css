@@ -57,6 +57,14 @@ nav >ul{
 nav li{
     list-style: none;
     margin-right: 50px;
+    padding: 5px 0px;
+    transition: all ease .5s;
+}
+nav li:hover{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+
 }
 
 nav a{
@@ -64,10 +72,7 @@ nav a{
     text-decoration: none;
     font-family: Inter;
     font-size: 20px;
-    transition: all ease-in .5s;
-}
-nav a:hover{
-    text-decoration: underline;
+    
 }
 
 .btn-primary{

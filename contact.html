@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/profile.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header-titel">
+                <img class="titel-img" src="images/logo.png" alt="">
+                <h3 class="nav-titel">Robin</h3>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Blogs</a></li>
+                <li><a href="about.html">About</a></li>
+                <form class="search-form" action="https://www.google.com/search" method="GET" >
+                    <input type="text" name="query" placeholder="Search...">
+                    <button type="submit" >Submit</button>
+                </form>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="header">
+            <div class="contact">
+                <div class="contact-r1">
+                    <h4>Get in Touch</h4>
+                    <h1>Convey Your <br>Ideas to Us</h1>
+                    <p>Contact us for questions, technical assistance, or collaboration opportunities via the contact
+                        information provided.</p>
+
+                    <div class="contact-info">
+                        <p><img src="images/call.png" alt=""> +123-456-7890</p>
+                        <p><img src="images/mail.png" alt=""> hello@reallygreatsite.com</p>
+                        <p><img src="images/location.png" alt=""> 123 Anywhere ST., Any City, 12345</p>
+                    </div>
+
+                </div>
+                <div class="contact-r2">
+                    <h1>Contact Us</h1>
+                    <form class="contact-box" action="process-form.php" method="POST">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                        <div class="box-name">
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            <div>
+                                <label for="phone">Phone</label>
+                                <input type="tel" name="phone" id="phone">
+                            </div>
+                        </div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4"  required></textarea>
+                        <div id="btn">
+                            <button id="btn-sub" class="btn-primary">Sent Me</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
+
+
+
+
+
